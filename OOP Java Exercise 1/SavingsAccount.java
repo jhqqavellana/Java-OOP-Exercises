@@ -9,7 +9,7 @@ public class SavingsAccount extends BankAccount {
   }
 
   public void getOwnerName() {
-    System.out.println("Owner Name: " + ownerName);
+    return ownerName;
   }
 
   public void setOwnerName(String ownerName) {
