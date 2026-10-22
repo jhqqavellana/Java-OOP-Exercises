@@ -41,7 +41,6 @@ public class BankAccount {
       System.out.println("Invalid amount. Must be greater than 0");
       return;
     }
-    System.out.printf("Current balance: %.2f%n", balance);
   }
 
   /** Returns the current account balance. */
